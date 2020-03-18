@@ -4,29 +4,33 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 
 ```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
-?
+function soma( x,y ) {
+return x + y
+}
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-?
+var invoc = soma( 2, 3 ) + 5
 
 // Qual o valor atualizado dessa variável?
-?
+10
 
 // Declare uma nova variável, sem valor.
-?
+
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-?
+function valor( x, y ) {
+return 'O valor da variável agora é' + 5
+}
 
 // Invoque a função criada acima.
-?
+valor()
 
 // Qual o retorno da função? (Use comentários de bloco).
-?
+'O valor da variável agora é 5'
 
 /*
 Crie uma função com as seguintes características:
